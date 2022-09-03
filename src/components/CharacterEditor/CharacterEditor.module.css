@@ -35,3 +35,8 @@
 .controlColumn {
   width: 50%;
 }
+
+.controlColumn > div {
+  white-space: nowrap;
+  overflow: auto;
+}
