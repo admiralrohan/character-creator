@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -39,4 +40,13 @@
 .controlColumn > div {
   white-space: nowrap;
   overflow: auto;
+}
+
+.background {
+  height: 40%;
+  width: 100%;
+  /* z-index: -1; */
+  position: fixed;
+  bottom: 0;
+  background-color: hsl(195deg, 20%, 86%);
 }
